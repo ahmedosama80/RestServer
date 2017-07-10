@@ -23,16 +23,16 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 
-namespace Jacwright\RestServer;
+//namespace RestServer;
 
-require(__DIR__ . '/RestFormat.php');
-require(__DIR__ . '/RestException.php');
+require('RestFormat.php');
+require('RestException.php');
 
-use Exception;
-use ReflectionClass;
-use ReflectionObject;
-use ReflectionMethod;
-use DOMDocument;
+//use Exception;
+//use ReflectionClass;
+//use ReflectionObject;
+//use ReflectionMethod;
+//use DOMDocument;
 
 /**
  * Description of RestServer
